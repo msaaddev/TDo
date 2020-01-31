@@ -1,0 +1,7 @@
+.main_container {
+    height: 100vh;
+    background-image: url(../../images/home.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
