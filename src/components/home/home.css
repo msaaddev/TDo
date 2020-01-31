@@ -1,7 +1,19 @@
 .main_container {
+	height: 100vh;
+	background-image: url(../../images/home.jpg);
+	background-size: cover;
+	margin: 0;
+	padding: 0;
+}
+
+.opacity {
+	background-color: #202020;
     height: 100vh;
-    background-image: url(../../images/home.jpg);
-    background-size: cover;
-    margin: 0;
-    padding: 0;
+    opacity: 0.1;
+	transition: opacity 0.5s;
+}
+
+.opacity:hover {
+    opacity: 0.5;
+    cursor: pointer;
 }

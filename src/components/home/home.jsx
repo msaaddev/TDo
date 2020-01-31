@@ -6,9 +6,11 @@ class Home extends Component {
 	state = {};
 	render() {
 		return (
-			<dir className="main_container">
-
-			</dir>
+			<div className="main_container">
+				<div className="opacity">
+                    
+                </div>
+			</div>
 		);
 	}
 }
