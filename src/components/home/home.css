@@ -27,12 +27,11 @@
 	letter-spacing: 2px;
 	margin-bottom: 30px;
 	transition: all 0.5s;
-	padding-top: 30px;
+	padding-top: 130px;
 }
 
 #welcome_title:hover {
 	opacity: 1;
-	padding-top: 130px;
 }
 
 .overlay:hover {
