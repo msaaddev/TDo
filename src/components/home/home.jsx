@@ -7,9 +7,9 @@ class Home extends Component {
 	render() {
 		return (
 			<div className="main_container">
-				<div className="opacity">
-                    
-                </div>
+				<div className="overlay">
+					<h1 id="welcome_title">Welcome to TDo</h1>
+				</div>
 			</div>
 		);
 	}

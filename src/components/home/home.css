@@ -3,17 +3,33 @@
 	background-image: url(../../images/home.jpg);
 	background-size: cover;
 	margin: 0;
-	padding: 0;
+    padding: 0;
+    position: relative;
+
 }
 
-.opacity {
-	background-color: #202020;
-    height: 100vh;
-    opacity: 0.1;
-	transition: opacity 0.5s;
+.overlay {
+    width: 100%;
+    height: 100%;
+    background-color: #202020;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s;
+
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
 }
 
-.opacity:hover {
-    opacity: 0.5;
+#welcome_title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 60px;
+    color: white;
+    margin: 0;
+}
+
+.overlay:hover {
+    opacity: 0.8;
     cursor: pointer;
+    padding-top: 150px;
 }
