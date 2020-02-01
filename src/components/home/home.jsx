@@ -2,12 +2,13 @@ import React, { Component } from 'react';
 import LoginButton from '../button/LoginButton';
 import './reset.css';
 import './home.css';
+import data from "../../data.json"
 
 class Home extends Component {
 	state = {
-		title: 'TDo - Everything you need',
-		description: 'A fast & easy way to keep track of your daily tasks',
-		button_text: "login"
+		title: data.title,
+		description: data.description,
+		button_text: data.button_text
 	};
 	render() {
 		return (
