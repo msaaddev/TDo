@@ -15,7 +15,6 @@
 	position: absolute;
 	transition: all 0.5s;
 
-    /* padding-top: 130px; */
 	overflow: hidden;
 }
 
@@ -27,28 +26,55 @@
 	padding-left: 100px;
 	letter-spacing: 2px;
 	margin-bottom: 30px;
-    transition: all 0.5s;
-    padding-top: 30px;
+	transition: all 0.5s;
+	padding-top: 30px;
 }
 
 #welcome_title:hover {
-    opacity: 1;
-    padding-top: 130px;
+	opacity: 1;
+	padding-top: 130px;
 }
 
 .overlay:hover {
 	opacity: 0.8;
-	cursor: pointer;
 	padding-bottom: 0;
 }
 
 #welcome_title p {
-    font-family: 'Lobster', cursive;
+	font-family: 'Lobster', cursive;
+	letter-spacing: 0.5px;
+	color: white;
+	font-weight: 100;
+	font-size: 30px;
+	margin: 0;
+	padding-top: 50px;
+}
 
-    letter-spacing: 0.5px;
-    color: white;
-    font-weight: 100;
-    font-size: 30px;
-    margin: 0;
-    padding-top: 50px;
+@media only screen and (max-width: 600px) {
+	#welcome_title {
+		font-family: 'Zhi Mang Xing', cursive;
+		font-size: 70px;
+		padding-left: 40px;
+		letter-spacing: 4px;
+		margin-bottom: 30px;
+		transition: all 0.5s;
+		padding-top: 30px;
+		width: 80%;
+	}
+
+	#welcome_title:hover {
+		opacity: 1;
+		padding-top: 110px;
+	}
+
+	#welcome_title p {
+	font-family: 'Lobster', cursive;
+	letter-spacing: 1px;
+	color: white;
+	font-weight: 100;
+	font-size: 30px;
+	margin: 0;
+	padding: 60px 0px 40px 0px;
+
+}
 }
