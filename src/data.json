@@ -1,7 +1,8 @@
 {
-    "Author": "Muhammad Saad",
-    "GitHub": "msaaddev",
-	"title": "TDo - Everything you need",
-	"description": "A fast & easy way to keep track of your daily tasks",
-	"button_text": "login"
+  "Author": "Muhammad Saad",
+  "GitHub": "msaaddev",
+  "title": "TDo – Everything you need",
+  "description": "A fast & easy way to keep track of your daily tasks",
+  "login_button_text": "Login",
+  "signup_button_text": "Sign Up"
 }
