@@ -11,6 +11,8 @@ class Home extends Component {
     login_button_text: data.login_button_text,
     sign_up_button_text: data.signup_button_text
   };
+
+  // sarim was here
   render() {
     return (
       <div className="main_container">
